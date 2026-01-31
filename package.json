@@ -1,0 +1,30 @@
+{
+  "name": "singlish-translator-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "test:chromium": "playwright test --project=chromium",
+    "test:firefox": "playwright test --project=firefox",
+    "test:webkit": "playwright test --project=webkit"
+  },
+  "keywords": [
+    "playwright",
+    "testing",
+    "automation",
+    "singlish",
+    "sinhala",
+    "translator"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright automation tests for Singlish to Sinhala translator",
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}
